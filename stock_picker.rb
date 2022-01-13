@@ -9,7 +9,7 @@ def stock_picker(stocks)
       low_price = price
       low_index = index
     end
-    
+
     if (price - low_price) > profit
       profit = price - low_price
       return_array = [low_index, index]
